@@ -1,0 +1,20 @@
+KPL/MK
+ 
+ 
+      File name                             Contents
+      --------------------------            -----------------------------
+      naif0012.tls	                    Leap Second File LSK
+      de430.bsp	                            Planetary Ephemeris SPK
+      mar097.bsp			    Mars system ephemeris
+
+ 
+      \begindata
+      KERNELS_TO_LOAD = ( 'SPICE Kernels/naif0012.tls',
+                          'SPICE Kernels/de424.bsp',
+                          'SPICE Kernels/orx_180801_190302_181218_od077_v1.bsp',
+                          'SPICE Kernels/orx_sc_rel_181008_181014_v02.bc',
+                          'SPICE Kernels/orx_sclkscet_00074.tsc',
+                          'SPICE Kernels/orx_struct_mapcam_v01.bc',
+                          'SPICE Kernels/orx_v14.tf',
+                          'SPICE Kernels/orx_ocams_v07.ti')                   
+      \begintext
